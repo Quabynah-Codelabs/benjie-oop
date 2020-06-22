@@ -30,9 +30,10 @@ def binary_search_alg(list_to_traverse, el):
             return print("Binary Search Alg found", el, "at position", mid)
     raise Exception("Could not find" + str(el) + " in this list")
 
+
 # todo: uncomment this to test result
-# if __name__ == '__main__':
-#     custom_list = [1, 2, 3, 4, 7, 9, 12, 14, 18]
-#     print("List of interest ->", custom_list)
-#     linear_search_alg(custom_list, 9)
-#     binary_search_alg(custom_list, 9)
+if __name__ == '__main__':
+    custom_list = [1, 2, 3, 4, 7, 9, 12, 14, 18, 9]
+    print("List of interest ->", custom_list)
+    linear_search_alg(custom_list, 9)
+    binary_search_alg(custom_list, 9)
