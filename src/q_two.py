@@ -6,7 +6,7 @@ class Groups:
     def __init__(self, z: int, s: int):
         self.z = z
         self.s = s
-        self.membermult = 1
+        self.membermult = self.z * self.s
 
     # sums up the attributes
     def sum(self):

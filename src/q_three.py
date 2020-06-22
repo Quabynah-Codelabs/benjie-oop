@@ -3,7 +3,7 @@
 
 class Person:
     # ununsed property
-    titles: ["Dr", "Mr", "Mrs", "Ms"]
+    # titles: ["Dr", "Mr", "Mrs", "Ms"]
 
     # constructor
     def __init__(self, title: str, first_name: str, last_name: str):
