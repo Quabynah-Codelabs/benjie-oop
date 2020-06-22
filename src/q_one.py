@@ -15,6 +15,7 @@ def linear_search_alg(list_to_traverse, el):
     raise Exception("Could not find" + str(el) + " in this list")
 
 
+# binary search algorithm
 def binary_search_alg(list_to_traverse, el):
     size_of_list = len(list_to_traverse)  #
     left = 0
